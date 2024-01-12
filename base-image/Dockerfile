@@ -1,6 +1,6 @@
 # Base image for flask REST api tutorial
 
-FROM alpine:3.16.7
+FROM alpine:3.16
 
 ADD requirements.txt /home/app/
 WORKDIR /home/app/
